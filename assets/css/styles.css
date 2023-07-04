@@ -1,0 +1,104 @@
+body {
+  font-family: Arial, sans-serif;
+  background: rgb(201,75,190);
+  background: linear-gradient(90deg, rgba(201,75,190,1) 0%, rgba(216,66,226,1) 6%, rgba(208,45,230,1) 10%, rgba(205,30,209,1) 21%, rgba(174,30,189,1) 56%, rgba(157,61,162,1) 71%, rgba(190,42,194,1) 100%);
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  margin: auto;
+  display: block;
+}
+
+.container {
+  width: 300px;
+  margin: 100px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background: linear-gradient(to bottom, #ffffff, #d9c6e1);
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.container h2 {
+  font-size: 0px;
+  text-align: center;
+  color: #000000;
+}
+
+.container input[type="text"],
+.container input[type="password"] {
+  width: 96%;
+  padding: 6px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.container input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #ae1ebd;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 25px;
+}
+
+.container input[type="submit"]:hover {
+  background-color: #640669;
+}
+
+.container .social-login {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.container .social-login p {
+  color: #000000;
+}
+
+.container .social-login .social-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.container .social-login .social-buttons button {
+  width: 70px;
+  margin: 0 5px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+
+
+.container .social-login .social-buttons button:hover {
+  opacity: 0.5;
+}
+
+
+
+.container .register-link {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.container .register-link a {
+  display: inline-block;
+  background-color: #8e67af;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.container .register-link a:hover {
+  background-color: #6f4c99;
+}
